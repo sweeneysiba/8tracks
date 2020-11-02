@@ -1,8 +1,8 @@
 # 8tracks
-#can import the postman collection
+# can import the postman collection
     `https://www.getpostman.com/collections/16109a0010a8aac0c678`
 
-
+# can run the project using command  go run main.go in 8tracks directory
 
 # steps for runnning the project in local 
     make user you have mysql installed in the local system
@@ -19,7 +19,7 @@
   replace the {{URL}} with `http://127.0.0.1:8080`
 
     Method        Routes for API                                     Description Of API
-        
+
     POST      {{URL}}/songs/create          -->   Create a songs | only created songs can be added to the list 
     GET       {{URL}}/songs                 -->   Fetch the Songs List 
     DELETE    {{URL}}/songs/delete/:id      -->   Delete a songs | pass id fetched from  `/song` API  instead of :id to delete that song
