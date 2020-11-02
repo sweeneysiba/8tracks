@@ -1,10 +1,10 @@
 # 8tracks
-# can import the postman collection
+  can import the postman collection
     `https://www.getpostman.com/collections/16109a0010a8aac0c678`
 
-# can run the project using command  go run main.go in 8tracks directory
+  can run the project using command  go run main.go in 8tracks directory
 
-# steps for runnning the project in local 
+  steps for runnning the project in local 
     make user you have mysql installed in the local system
     login to the mysql terminal and create a database with name 8tracks or else can configure the database config in file found in 
     `config/database.go`
@@ -16,7 +16,8 @@
 		Password: "root",        // your password if any
 		DBName:   "8tracks",     // database name  where you want tables to be created
 	}`
-  replace the {{URL}} with `http://127.0.0.1:8080`
+    
+    replace the {{URL}} with http://127.0.0.1:8080
 
     Method        Routes for API                                     Description Of API
 
